@@ -1,17 +1,16 @@
 <a name="title"></a> 
 ## Title
-readme-generator
+readme generator
 
 <a name="description"></a>
 ## Description
-to create an application which will generate a readme file after answering a few questions
+to generate a readme file after answering a few questions
 
 
 ## Table of Contents
 - [Title](#title)
 - [Description](#description)
 - [Installation](#installation)
-- [Usage](#usage)
 - [Usage](#usage)
 - [License](#license)
 - [Contributing](#contributing)
@@ -20,11 +19,11 @@ to create an application which will generate a readme file after answering a few
 
 <a name="installation"></a>
 ## Installation
-to use node.js
+not sure
 
 <a name="usage"></a>
 ## Usage
-to generate a readme file
+not sure
 
 <a name="license"></a>
 ## License
@@ -36,7 +35,7 @@ not sure
 
 <a name="tests"></a>
 ## Tests
-not sure
+to use node
 
 <a name="questions"></a>
 ## Questions
