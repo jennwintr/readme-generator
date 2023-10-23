@@ -2,31 +2,46 @@ const inquirer = require('inquirer');
 const fs = require('fs');
 
 const generateREADME = ({ title, description, installation, usage, license, contribution, test, username, email }) =>
-` ## Title
+`<a name="title"></a> 
+## Title
 ${title}
 
+<a name="description"></a>
 ## Description
 ${description}
 
 
 ## Table of Contents
+- [Title](#title)
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
 
-
+<a name="installation"></a>
 ## Installation
 ${installation}
 
+<a name="usage"></a>
 ## Usage
 ${usage}
 
+<a name="license"></a>
 ## License
 ${license}
 
+<a name="contributing"></a>
 ## Contributing
 ${contribution}
 
+<a name="tests"></a>
 ## Tests
 ${test}
 
+<a name="questions"></a>
 ## Questions
 For any additional questions, please contact me through:
 GitHub: [https://github.com/${username}](https://github.com/${username})
@@ -94,7 +109,3 @@ inquirer
 //   THEN a badge for that license is added near the top of the README and a notice is added 
 //   to the section of the README entitled License that explains which license 
 //   the application is covered under
-
-
-//   WHEN I click on the links in the Table of Contents
-//   THEN I am taken to the corresponding section of the README
